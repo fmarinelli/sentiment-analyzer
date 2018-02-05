@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: sentiment-analyzer
+management:
+  cloudfoundry:
+    skip-ssl-validation: true
+  info:
+    git:
+      mode: full
+#  cloud:
+#    services:
+#      registrationMethod: route
+#    config:
+#      uri: ${vcap.services.config-service.credentials.uri}
