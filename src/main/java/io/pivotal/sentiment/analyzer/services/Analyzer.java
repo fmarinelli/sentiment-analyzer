@@ -1,6 +1,6 @@
-package io.pivotal.sentiment.services;
+package io.pivotal.sentiment.analyzer.services;
 
-import io.pivotal.sentiment.domain.ScoreAndMagnitude;
+import io.pivotal.sentiment.analyzer.domain.ScoreAndMagnitude;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

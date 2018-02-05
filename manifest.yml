@@ -1,0 +1,10 @@
+---
+applications:
+- name: sentiment-analyzer
+  hosts:
+    - sentiment-analyzer
+  memory: 1GB
+  instances: 1
+  buildpack: java_buildpack_offline
+  env:
+    TRUST_CERTS: api.system.pcf-example.xyz

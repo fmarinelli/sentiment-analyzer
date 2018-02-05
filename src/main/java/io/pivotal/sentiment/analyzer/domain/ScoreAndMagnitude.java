@@ -1,4 +1,4 @@
-package io.pivotal.sentiment.domain;
+package io.pivotal.sentiment.analyzer.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
